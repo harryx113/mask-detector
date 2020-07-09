@@ -44,4 +44,4 @@ python detect_image.py --i TestImageDirectory
 python detect_video.py
 ```
 ## Limitation
-
+The model and data set selection sacrificed some accuracy for computing efficiency, so masks that are unconventional in style or color might not be detected.
