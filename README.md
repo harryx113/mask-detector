@@ -21,10 +21,9 @@ process the input images.
   
 CNN architecture: Two layers of Conv2D and two layers of Max Pooling are used. 0.3 dropout rate
 and callback method are applied to avoid overfitting. The callback threshold is set at 0.95 to save computing resources.
-![](resource/model.png, 100x20)
+<img src="resource/model.png" width="500">  
 Training result and callback
 ![](resource/result.png)  
-Plot
 ![](resource/plot.png)
 
 
