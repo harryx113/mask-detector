@@ -20,7 +20,7 @@ mobile devices. I used the MobileNet V2 pre-processing to efficiently
 process the input images.
   
 CNN architecture: Two layers of Conv2D and two layers of Max Pooling are used. 0.3 dropout rate
-and callback method are applied to avoid overfitting.
+and callback method are applied to avoid overfitting. The callback threshold is set at 0.95 to save computing resources.
 ![](resource/model.png)
 Training result and callback
 ![](resource/result.png)
@@ -37,5 +37,5 @@ and the other named without_mask with your training images.
 ```bash
 python train_detector.py --d DataFolderDirectory --p PlotSavedDirectory --m ModelSavedDirectory
 ```
+### Limitation
 
-## License
