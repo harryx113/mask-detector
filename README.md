@@ -23,7 +23,7 @@ CNN architecture: Two layers of Conv2D and two layers of Max Pooling are used. 0
 and callback method are applied to avoid overfitting. The callback threshold is set at 0.95 to save computing resources.
 ![](resource/model.png)
 Training result and callback
-![](resource/result.png)
+![](resource/result.png)  
 Plot
 ![](resource/plot.png)
 
@@ -37,5 +37,11 @@ and the other named without_mask with your training images.
 ```bash
 python train_detector.py --d DataFolderDirectory --p PlotSavedDirectory --m ModelSavedDirectory
 ```
-### Limitation
+### Use a face detector to capture faces and feed them to the detector model
+The pre-trained face detector helps with finding faces in an image.  
+```bash
+python detect_image.py --i TestImageDirectory
+python detect_video.py
+```
+## Limitation
 
