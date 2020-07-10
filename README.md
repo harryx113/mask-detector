@@ -30,6 +30,7 @@ Training result and callback
 ## Demo
 ![](resource/demo_img.png)  
 ![](resource/demo_img2.png)
+![](resource/demo_video.gif)
 ## Deployment
 ### Train the model on a data set
 Prepare a folder that contains 2 sub-folders, one named with_mask
